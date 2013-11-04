@@ -21,6 +21,8 @@
 		BAF503BD18273F1E00CFD242 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF5039F18273F1E00CFD242 /* UIKit.framework */; };
 		BAF503C518273F1E00CFD242 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAF503C318273F1E00CFD242 /* InfoPlist.strings */; };
 		BAF503C718273F1E00CFD242 /* Ma7chismoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF503C618273F1E00CFD242 /* Ma7chismoTests.m */; };
+		BAF503D21827792E00CFD242 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF503D11827792E00CFD242 /* Card.m */; };
+		BAF503D518277AC900CFD242 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF503D418277AC900CFD242 /* Deck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		BAF503C218273F1E00CFD242 /* Ma7chismoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ma7chismoTests-Info.plist"; sourceTree = "<group>"; };
 		BAF503C418273F1E00CFD242 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BAF503C618273F1E00CFD242 /* Ma7chismoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ma7chismoTests.m; sourceTree = "<group>"; };
+		BAF503D01827792E00CFD242 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		BAF503D11827792E00CFD242 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		BAF503D318277AC900CFD242 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		BAF503D418277AC900CFD242 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,10 @@
 				BAF503B118273F1E00CFD242 /* Ma7chismoViewController.m */,
 				BAF503B318273F1E00CFD242 /* Images.xcassets */,
 				BAF503A218273F1E00CFD242 /* Supporting Files */,
+				BAF503D01827792E00CFD242 /* Card.h */,
+				BAF503D11827792E00CFD242 /* Card.m */,
+				BAF503D318277AC900CFD242 /* Deck.h */,
+				BAF503D418277AC900CFD242 /* Deck.m */,
 			);
 			path = Ma7chismo;
 			sourceTree = "<group>";
@@ -250,9 +260,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAF503D518277AC900CFD242 /* Deck.m in Sources */,
 				BAF503A818273F1E00CFD242 /* main.m in Sources */,
 				BAF503B218273F1E00CFD242 /* Ma7chismoViewController.m in Sources */,
 				BAF503AC18273F1E00CFD242 /* Ma7chismoAppDelegate.m in Sources */,
+				BAF503D21827792E00CFD242 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
