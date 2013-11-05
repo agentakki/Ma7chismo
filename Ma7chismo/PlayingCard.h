@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 akshaybakshi. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+//#import <Foundation/Foundation.h>
 #import "Card.h"
 
 @interface PlayingCard : Card
@@ -15,6 +15,6 @@
 @property (nonatomic) NSUInteger rank;
 
 + (NSArray *) validSuits;
-+(NSUInteger) maxRank;
++ (NSUInteger) maxRank;
 
 @end

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BA53F74E18286B1F007964D8 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = BA53F74D18286B1F007964D8 /* PlayingCard.m */; };
+		BA53F7511828A0C2007964D8 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = BA53F7501828A0C2007964D8 /* PlayingCardDeck.m */; };
 		BAF5039C18273F1E00CFD242 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF5039B18273F1E00CFD242 /* Foundation.framework */; };
 		BAF5039E18273F1E00CFD242 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF5039D18273F1E00CFD242 /* CoreGraphics.framework */; };
 		BAF503A018273F1E00CFD242 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF5039F18273F1E00CFD242 /* UIKit.framework */; };
@@ -39,6 +40,8 @@
 /* Begin PBXFileReference section */
 		BA53F74C18286B1F007964D8 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
 		BA53F74D18286B1F007964D8 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		BA53F74F1828A0C2007964D8 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		BA53F7501828A0C2007964D8 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
 		BAF5039818273F1E00CFD242 /* Ma7chismo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ma7chismo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAF5039B18273F1E00CFD242 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BAF5039D18273F1E00CFD242 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -88,6 +91,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA53F7521828AEDF007964D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BAF503D01827792E00CFD242 /* Card.h */,
+				BAF503D11827792E00CFD242 /* Card.m */,
+				BAF503D318277AC900CFD242 /* Deck.h */,
+				BAF503D418277AC900CFD242 /* Deck.m */,
+				BA53F74C18286B1F007964D8 /* PlayingCard.h */,
+				BA53F74D18286B1F007964D8 /* PlayingCard.m */,
+				BA53F74F1828A0C2007964D8 /* PlayingCardDeck.h */,
+				BA53F7501828A0C2007964D8 /* PlayingCardDeck.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		BAF5038F18273F1E00CFD242 = {
 			isa = PBXGroup;
 			children = (
@@ -121,19 +139,12 @@
 		BAF503A118273F1E00CFD242 /* Ma7chismo */ = {
 			isa = PBXGroup;
 			children = (
-				BAF503AA18273F1E00CFD242 /* Ma7chismoAppDelegate.h */,
-				BAF503AB18273F1E00CFD242 /* Ma7chismoAppDelegate.m */,
+				BA53F7521828AEDF007964D8 /* Model */,
 				BAF503AD18273F1E00CFD242 /* Main.storyboard */,
 				BAF503B018273F1E00CFD242 /* Ma7chismoViewController.h */,
 				BAF503B118273F1E00CFD242 /* Ma7chismoViewController.m */,
 				BAF503B318273F1E00CFD242 /* Images.xcassets */,
 				BAF503A218273F1E00CFD242 /* Supporting Files */,
-				BAF503D01827792E00CFD242 /* Card.h */,
-				BAF503D11827792E00CFD242 /* Card.m */,
-				BAF503D318277AC900CFD242 /* Deck.h */,
-				BAF503D418277AC900CFD242 /* Deck.m */,
-				BA53F74C18286B1F007964D8 /* PlayingCard.h */,
-				BA53F74D18286B1F007964D8 /* PlayingCard.m */,
 			);
 			path = Ma7chismo;
 			sourceTree = "<group>";
@@ -141,6 +152,8 @@
 		BAF503A218273F1E00CFD242 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BAF503AA18273F1E00CFD242 /* Ma7chismoAppDelegate.h */,
+				BAF503AB18273F1E00CFD242 /* Ma7chismoAppDelegate.m */,
 				BAF503A318273F1E00CFD242 /* Ma7chismo-Info.plist */,
 				BAF503A418273F1E00CFD242 /* InfoPlist.strings */,
 				BAF503A718273F1E00CFD242 /* main.m */,
@@ -269,6 +282,7 @@
 				BAF503D518277AC900CFD242 /* Deck.m in Sources */,
 				BAF503A818273F1E00CFD242 /* main.m in Sources */,
 				BAF503B218273F1E00CFD242 /* Ma7chismoViewController.m in Sources */,
+				BA53F7511828A0C2007964D8 /* PlayingCardDeck.m in Sources */,
 				BAF503AC18273F1E00CFD242 /* Ma7chismoAppDelegate.m in Sources */,
 				BAF503D21827792E00CFD242 /* Card.m in Sources */,
 			);

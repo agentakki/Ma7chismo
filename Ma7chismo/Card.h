@@ -6,7 +6,8 @@
 //  Copyright (c) 2013 akshaybakshi. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+
+#import <Foundation/Foundation.h>
 
 @interface Card : NSObject
 
@@ -14,5 +15,7 @@
 
 @property (nonatomic, getter = isMatched) BOOL matched;
 @property (nonatomic, getter = isChosen) BOOL chosen;
+
+-(int)match:(NSArray *) otherCards;
 
 @end
