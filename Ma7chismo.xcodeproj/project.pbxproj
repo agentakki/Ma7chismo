@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BA53F74E18286B1F007964D8 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = BA53F74D18286B1F007964D8 /* PlayingCard.m */; };
 		BA53F7511828A0C2007964D8 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = BA53F7501828A0C2007964D8 /* PlayingCardDeck.m */; };
+		BAB52E55182A01A600B287A3 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB52E54182A01A600B287A3 /* CardMatchingGame.m */; };
 		BAF5039C18273F1E00CFD242 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF5039B18273F1E00CFD242 /* Foundation.framework */; };
 		BAF5039E18273F1E00CFD242 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF5039D18273F1E00CFD242 /* CoreGraphics.framework */; };
 		BAF503A018273F1E00CFD242 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF5039F18273F1E00CFD242 /* UIKit.framework */; };
@@ -42,6 +43,8 @@
 		BA53F74D18286B1F007964D8 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
 		BA53F74F1828A0C2007964D8 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
 		BA53F7501828A0C2007964D8 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
+		BAB52E53182A01A600B287A3 /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardMatchingGame.h; sourceTree = "<group>"; };
+		BAB52E54182A01A600B287A3 /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardMatchingGame.m; sourceTree = "<group>"; };
 		BAF5039818273F1E00CFD242 /* Ma7chismo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ma7chismo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAF5039B18273F1E00CFD242 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BAF5039D18273F1E00CFD242 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -102,6 +105,8 @@
 				BA53F74D18286B1F007964D8 /* PlayingCard.m */,
 				BA53F74F1828A0C2007964D8 /* PlayingCardDeck.h */,
 				BA53F7501828A0C2007964D8 /* PlayingCardDeck.m */,
+				BAB52E53182A01A600B287A3 /* CardMatchingGame.h */,
+				BAB52E54182A01A600B287A3 /* CardMatchingGame.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -282,6 +287,7 @@
 				BAF503D518277AC900CFD242 /* Deck.m in Sources */,
 				BAF503A818273F1E00CFD242 /* main.m in Sources */,
 				BAF503B218273F1E00CFD242 /* Ma7chismoViewController.m in Sources */,
+				BAB52E55182A01A600B287A3 /* CardMatchingGame.m in Sources */,
 				BA53F7511828A0C2007964D8 /* PlayingCardDeck.m in Sources */,
 				BAF503AC18273F1E00CFD242 /* Ma7chismoAppDelegate.m in Sources */,
 				BAF503D21827792E00CFD242 /* Card.m in Sources */,
