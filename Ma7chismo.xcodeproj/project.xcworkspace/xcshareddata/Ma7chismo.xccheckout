@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1445A5F2-0480-4EA3-A255-9CECE54614D5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Ma7chismo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>58262CB8-F518-40B0-9938-F3C2E490397B</key>
+		<string>https://github.com/agentakki/Ma7chismo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Ma7chismo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>58262CB8-F518-40B0-9938-F3C2E490397B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/agentakki/Ma7chismo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>58262CB8-F518-40B0-9938-F3C2E490397B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>58262CB8-F518-40B0-9938-F3C2E490397B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Ma7chismo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
