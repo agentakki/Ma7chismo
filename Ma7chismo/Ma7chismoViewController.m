@@ -43,6 +43,17 @@
 //    NSLog(@"FlipCount changed to %d", self.flipCount);
 //}
 
+- (IBAction)resetGame {
+    self.game = nil;
+    self.scoreLabel.text = [NSString stringWithFormat:@"Score: 0"];
+    for(UIButton *cardButton in self.cardButtons)
+    {
+        cardButton.enabled = NO;
+    }
+    [self updateUI];
+}
+
+
 - (IBAction)touchCardButton:(UIButton *)sender {
     
     int cardIndex = [self.cardButtons indexOfObject:sender];
